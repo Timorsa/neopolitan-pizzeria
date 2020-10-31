@@ -1,0 +1,43 @@
+$neoBlue: #374d65;
+$neoBlueTransparent: #374d6550;
+$neoBlueLight: #7f9aad;
+$smokey: #ecf0f3;
+$ash: #3f4a4e;
+$whiteoverlay: #ecf0f3ce;
+$color: #000; // icon color
+$animation: 0.6s; // animation speed
+$scale: 1; // icon scale 68/68 default
+
+@import url('https://fonts.googleapis.com/css?family=Alef&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
+
+$font1: 'Alef', sans-serif;
+$font2: 'Heebo', sans-serif;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+html {
+	font-size: 8px;
+	scroll-behavior: smooth;
+	font-family: $font1;
+}
+
+@media (min-width: 1920px) {
+	html {
+		font-size: 10px;
+	}
+}
+
+body {
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+a {
+	text-decoration: none;
+}
